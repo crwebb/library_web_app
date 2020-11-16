@@ -1,0 +1,31 @@
+body {
+    background-color: #373F51;
+    margin: 0%;
+}
+
+#titleContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #28282c;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+#titleDiv > * {
+    display: flex;
+    justify-content: center;
+    color:  #D8DBE2;
+}
+
+#libraryTable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 35px;
+    width: 500px;
+    background-color: #b3b3c2;
+    font-family: sans-serif;
+}
+
+
