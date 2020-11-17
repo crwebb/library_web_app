@@ -10,26 +10,47 @@
 </head>
 
 
-
 <body>
+  <div id="mainContainer">
+      <div id="titleContainer">
+          <div id="titleDiv">
+              <h1>LIBRARY</h1>
+              <h4>Add, remove and browse books to form your own personal library!</h4>
+          </div>
+      </div>
+   
 
-    <div id="titleContainer">
-        <div id="titleDiv">
-            <h1>Library</h1>
-            <h4>Add, remove and browse books from your own personel library !</h4>
-        </div>
-    </div>
+ 
+      <form id="myForm" action="" method="">
+        <ul>
+          <li>
+            <label for="title">Title:</label>
+            <input type="text" id="title" title="book_title">
+          </li>
+          <li>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="book_author">
+          </li>
+          <li>
+            <label for="pages">Pages:</label>
+            <input type="text" id="pages" name="book_pages">
+          </li>
+          <li>
+            <label for="Read">Read:</label>
+            <input type="checkbox" id="read" name="book_read">
+          </li>
+          <li>
+            <button type="button" id="submitBtn">Submit Book</button>
+          </li>
+        </ul>
+      </form>
 
-    <button type="button", id="addBookBtn">Add Book</button>
 
-
-    <div id="libraryTable">
-        <h4>Title</h4>
-        <h4>Author</h4>
-        <h4>Pages</h4>
-        <h4>Read</h4>
-    </div>
-
+      <div id="yourBooksBar">
+          <h4>Your Books</h4>
+          <button type="button", id="newBookBtn">New Book</button>
+      </div>
+  </div>
     
   <script src="library.js"></script>
 </body>
