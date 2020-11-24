@@ -1,5 +1,5 @@
 body {
-    background-color: #bbb5ab;
+    background-color: #e7e3dc;
     color:  #28282c;
     padding: 30px;
 }
@@ -101,7 +101,28 @@ label {
     color:  #161718;
 }
 
+#closeBtn {
+    padding: 10px;
+    border: none;
+    background-color: #e7e3dc;
+    color: #28282c;
+    font-size: 14px;
+    font-weight: bold;
+  
+}
 
+#closeBtn:hover {
+    padding: 10px;
+    border: none;
+    border-radius: 20%;
+    background-color: #28282c;
+    color: white;
+}
+
+#books > div {
+    font-size: 1.5em;
+    margin: 20px 10px 20px 80px;
+}
 
 
 
